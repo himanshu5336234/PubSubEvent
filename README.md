@@ -1,22 +1,31 @@
-# TypeScript EventBus  
-A lightweight, type-safe event system for React/Node apps. 
+# TypeScript EventBus
 
-Type-Safety
-Try changing { text: string } to { content: string } - TypeScript will catch it!
+A lightweight, type-safe event system for React and Node.js applications.
 
-Decoupled Architecture
+> ✨ Designed for clean, decoupled communication without the Redux or Context API overhead.
 
-Memory Management
-unsubscribe in destroy() prevents memory leaks.
+---
 
-One-Time Events
-subscribeOnce automatically cleans itself up.
-## Features  
-- Zero dependencies  
-- Type-safe events  
-- No Redux/Context overkill  
+## 🚀 Features
 
-## Usage  
+- ✅ **Zero dependencies**
+- ✅ **Fully type-safe events**
+- ✅ **Auto memory cleanup**
+- ✅ **Simple API**: `subscribe`, `publish`, `unsubscribe`, `subscribeOnce`
+- ✅ **Decoupled architecture** – no tight coupling between components/services
+- ✅ **No Redux/Context overkill**
+- ✅ **Ideal for event-driven UIs & background services**
+
+---
+
+## 💡 Why Use This?
+
+- Perfect for **component-to-component** or **service-to-component** communication
+- Great for **micro-frontends**, **isolated UIs**, and **service-driven components**
+- Handles **WebSocket-triggered UI updates** effortlessly
+- No global store, no prop drilling, no boilerplate
+
+---
 
 ```ts
 // 1. Initialize
